@@ -10,16 +10,13 @@
     "ls": "cd src && ls"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^6.2.1",
-    "@fortawesome/free-regular-svg-icons": "^6.2.1",
-    "@fortawesome/free-solid-svg-icons": "^6.2.1",
-    "@fortawesome/react-fontawesome": "^0.2.0",
     "bootstrap": "4.6",
     "font-awesome": "^4.7.0",
     "nvm": "0.0.4",
     "react": "^18.2.0",
     "react-bootstrap": "^2.6.0",
     "react-dom": "^18.2.0",
+    "react-fontawesome": "^1.7.1",
     "react-icons": "^4.6.0",
     "react-router": "^6.4.3",
     "react-router-dom": "^6.4.3",
@@ -29,6 +26,7 @@
     "@types/react": "^18.0.17",
     "@types/react-dom": "^18.0.6",
     "@vitejs/plugin-react": "^2.0.1",
+    "babel-plugin-macros": "^3.1.0",
     "sass": "^1.56.1",
     "vite": "^3.0.7"
   }
