@@ -1,9 +1,7 @@
-import React from "react";
-import "./style.scss";
-import logo from "../../assets/images/logo.png";
-import ReactDOM from "react-dom";
-import { faCoffee } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import React from 'react';
+import './style.scss';
+import logo from '../../assets/images/logo.png';
+import FontAwesome from 'react-fontawesome';
 
 const Footer = () => {
   return (
@@ -16,8 +14,7 @@ const Footer = () => {
                 <span>
                   <i
                     className="fa fa-firefox text-light"
-                    aria-hidden="true"
-                  ></i>
+                    aria-hidden="true"></i>
                 </span>
                 <img className="w-50" src={logo}></img>
               </h5>
