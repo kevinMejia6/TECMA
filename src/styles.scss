@@ -1,0 +1,42 @@
+.Header {
+    background-color: #0c0116;
+    width: 100%;
+    border: none;
+    margin: 0;
+    padding: 0;
+
+
+    .menu {
+        font-size: 18px;
+        font-weight: 500;
+        color: rgb(128, 127, 127);
+
+        a {
+            color: rgb(78, 49, 49);
+            text-decoration: none;
+            padding: .5rem 1rem;
+
+        }
+
+        &:hover {
+            background-color: #ff4856;
+            border-radius: 5px;
+            color: white;
+            animation: infinite;
+            animation-direction: reverse;
+            transition: ease all 0.5s;
+        }
+    }
+
+    .menu-desplegable:hover {
+        background-color: #ff4856;
+        border-radius: 1px;
+        color: white;
+        animation: infinite;
+        animation-direction: reverse;
+    }
+
+    .container-fluid {
+        background-color: #212944;
+    }
+}
